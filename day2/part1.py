@@ -14,7 +14,7 @@ def valid_password(passwords: list):
         for p in password:
             if p == letter:
                 freq = freq + 1
-        if (freq >= int(min)) & (freq <= int(max)):
+        if (freq >= int(min)) and (freq <= int(max)):
             valid = valid + 1
     print(valid)
 
